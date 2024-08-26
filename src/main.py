@@ -9,7 +9,7 @@ def get_valid_url() -> str:
         str: A valid URL that starts with 'http://' or 'https://'.
     """
     while True:
-        url = input("Enter the website link (e.g., https://example.com):\n").strip()
+        url = input("Enter the website link:\n").strip()
         if not url:
             print("The URL cannot be empty. Please enter a valid URL.")
             continue
@@ -25,14 +25,14 @@ def get_valid_redirects() -> bool:
         bool: True if redirects are allowed, False otherwise.
     """
     while True:
-        redirects_input = input("Allow redirects? Enter 'True' or 'False':\n").strip().lower()
-        if redirects_input in ('true', 'false'):
-            return redirects_input == 'true'
-        print("Invalid answer for redirects. Please enter 'True' or 'False'.")
+        redirects_input = input("Do you want to allow redirects? (yes/no)\n").strip().lower()
+        if redirects_input in ('yes', 'no'):
+            return redirects_input == 'yes'
+        print("Invalid answer for redirects. Please enter 'yes' or 'no'.")
 
 def get_valid_timeout() -> int:
     """
-    Prompt the user to set a timeout value, ensuring it is a positive integer within a reasonable range.
+    Prompt the user to set a timeout value, ensuring it is a positive integer.
 
     Returns:
         int: A positive integer representing the timeout value in seconds.
