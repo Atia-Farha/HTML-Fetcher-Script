@@ -21,18 +21,18 @@ The HTML Fetcher Script is a Python script that allows users to fetch and option
 HTML-Fetcher/
 ├── src/
 │   └── fetch_html.py       # Main Python script
-├── README.md               # Documentation
 ├── .gitignore              # Ignored files
-└── LICENSE                 # License file
+├── LICENSE                 # License file
+└── README.md               # Documentation      
 ```
 
 ## Features
 
 - **URL Validation**: Ensures the entered URL starts with `http://` or `https://`.
 - **Redirect Options**: Allows users to choose whether to follow HTTP redirects.
-- **Timeout Configuration**: Let users specify a timeout value for the request.
+- **Timeout Configuration**: Lets users specify a timeout value for the request.
 - **Error Handling**: Catches and handles various exceptions related to HTTP requests.
-- **HTML Saving**: Provide an option to save the fetched HTML content to a file.
+- **HTML Saving**: Provides an option to save the fetched HTML content to a file.
 
 ## Getting Started
 
@@ -81,6 +81,6 @@ The script includes comprehensive error handling for:
 If you encounter any functional issues or complaints, please let me know in the 'Issues' section. I will make every effort to fix it as quickly as possible.
 
 ## License
-This script is provided for personal, non-commercial purposes. Commercial use of this software is not permitted. When using this script, credit must be given to the original author.
+This script is provided for personal, non-commercial purposes. Commercial use of this software is not permitted. When using this script, credit must be given to the original author. For more details, read [LICENSE file](LICENSE).
 
-<p align="center">© Originally created by Atia Farha | ALL RIGHTS RESERVED</p>
+<p align="center">Copyright © originally written by Atia Farha</p>
