@@ -18,7 +18,7 @@ The HTML Fetcher Script is a Python script that allows users to fetch and option
 ## Project Structure
 
 ```plaintext
-HTML-Fetcher/
+HTML-Fetcher-Script/
 ├── src/
 │   └── fetch_html.py       # Main Python script
 ├── .gitignore              # Ignored files
