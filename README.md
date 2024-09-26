@@ -1,7 +1,5 @@
 # HTML Fetcher Script
 
-## Overview
-
 The HTML Fetcher Script is a Python script that allows users to fetch and optionally save the HTML content from a specified URL using `requests` library. This script provides user-friendly prompts for input validation, including URL format, redirect options, and timeout settings. It handles various exceptions to ensure robustness and provides informative error messages to guide the user in case of issues.
 
 ## Table of Contents
