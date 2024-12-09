@@ -36,7 +36,7 @@ HTML-Fetcher-Script/
 
 ### Prerequisites
 
-- Python 3 (can be download from <a href="https://www.python.org/downloads/" target="_blank">this website</a>)
+- Python 3 (can be download from <a href="https://www.python.org/downloads/" target="_blank">Python Official website</a>)
 - `requests` library (can be installed via `pip install requests` in the terminal)
 
 ### Installation
