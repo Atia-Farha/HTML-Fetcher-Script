@@ -76,7 +76,7 @@ The script includes comprehensive error handling for:
 
 ## Reporting Issues
 
-If you encounter any functional issues or complaints, please let me know in the 'Issues' section. I will make every effort to fix it as quickly as possible.
+If you encounter any bugs or have suggestions for improvement, please report them in the <a href="https://github.com/Atia-Farha/HTML-Fetcher-Script/issues" target="_blank">Issues</a> section of this GitHub repository. I will address them promptly.
 
 ## License
 This script is provided for personal, non-commercial purposes. Commercial use of this software is not permitted. When using this script, credit must be given to the original author. For more details, read [LICENSE file](LICENSE).
