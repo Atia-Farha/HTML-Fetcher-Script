@@ -52,7 +52,7 @@ HTML-Fetcher-Script/
 
 ### Usage
 
-1. Run the `fetch_html.py` file.
+1. Run the `fetch_html.py` file located inside the src folder of this project.
 2. Follow the on-screen prompts:
    - **Enter the website link**: Provide a valid URL starting with `http://` or `https://` (e.g., `https://example.com`).
    - **Allow redirects:** Specify whether to allow HTTP redirects (`yes` or `no`).
