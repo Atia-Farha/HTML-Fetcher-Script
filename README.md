@@ -64,7 +64,7 @@ HTML-Fetcher-Script/
 3. If saving the file:
    - Enter a file name.
    - If the file already exists, you will be prompted to overwrite or choose a different name.
-4. To fetch another URL when prompted, answer `yes` and repeat same process. To exit the script, answer `no`.
+4. To fetch another URL when prompted, answer `yes` and repeat the same process. To exit the script, answer `no`.
 
 ## Error Handling
 
