@@ -30,7 +30,7 @@ HTML-Fetcher-Script/
 - **Redirect Options**: Allows users to choose whether to follow HTTP redirects.
 - **Timeout Configuration**: Lets users specify a timeout value for the request.
 - **Error Handling**: Catches and handles various exceptions related to HTTP requests.
-- **HTML Saving**: Provides an option to save the fetched HTML content to a file.
+- **HTML Saving**: Provides an option to save the fetched HTML content to a file and handles overwriting conflicts.
 
 ## Getting Started
 
