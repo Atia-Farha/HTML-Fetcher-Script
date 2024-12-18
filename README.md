@@ -26,11 +26,14 @@ HTML-Fetcher-Script/
 
 ## Features
 
+- **Detailed Console Messages**: Guides users through every step with clear instructions and error 
+- ** Robust Error Handling**: Catches and handles various exceptions like invalid URLs, connection errors, timeouts, and HTTP issues.
 - **URL Validation**: Ensures the entered URL starts with `http://` or `https://`.
 - **Redirect Options**: Allows users to choose whether to follow HTTP redirects.
-- **Timeout Configuration**: Lets users specify a timeout value for the request.
-- **Error Handling**: Catches and handles various exceptions related to HTTP requests.
-- **HTML Saving**: Provides an option to save the fetched HTML content to a file and handles overwriting conflicts.
+- **Timeout Configuration**: Lets users specify a timeout duration (in seconds) for the request.
+- **Fetch HTML**: The script fetches the HTML content from the specified URL and displays the response headers and the HTML content. 
+- **HTML Saving**: Provides an option to save the fetched HTML content to a local file and handles overwriting conflicts.
+- Repeat or Exit: After completing one request, provides user an option to fetch another URL or exit the program.
 
 ## Getting Started
 
@@ -61,7 +64,7 @@ HTML-Fetcher-Script/
 3. If saving the file:
    - Enter a file name.
    - If the file already exists, you will be prompted to overwrite or choose a different name.
-4. To fetch another URL, answer `yes` when prompted. To exit the script, answer `no`.
+4. To fetch another URL when prompted, answer `yes` and repeat same process. To exit the script, answer `no`.
 
 ## Error Handling
 
