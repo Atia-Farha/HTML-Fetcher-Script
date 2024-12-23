@@ -84,4 +84,4 @@ If you encounter any bugs or have suggestions for improvement, please report the
 ## License
 This script is provided for personal, non-commercial purposes. Commercial use of this software is not permitted. When using this script, credit must be given to the original author. For more details, read [LICENSE file](LICENSE).
 
-<p align="center">Copyright © originally written by Atia Farha</p>
+<p align="center">Copyright © originally written by <a href="https://github.com/Atia-Farha" target="_blank">Atia Farha</a></p>
